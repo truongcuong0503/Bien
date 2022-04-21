@@ -9,18 +9,15 @@
 <body>
     
 </body>
-<script src="Bai3.js">
-    let number = prompt("Nhập số a bất kỳ");
-    let a = number;
-    let Number = prompt("Nhập số b bất kỳ");
-    let b = Number;
-    let c = a%=b;
-    // if c = 0 {
-        //  alert('a là bội của b');
-    // }
-    // else {
-        //  alert('a không là bội của b');
-    // }
+<script>
+    let a = +prompt("Nhập số vào a: ");
+    let b = +prompt("Nhập số vào b: ");
+
+    if a%b == 0 {
+         alert('a là bội của b');
+    }   else {
+         alert('a không là bội của b');
+    }
 
 </script>
 </html>
